@@ -82,8 +82,8 @@ const ChatPage: React.FC = () => {
         {chatHistory.length === 0 && !isLoading && (
             <div className="flex justify-center items-center h-full">
                 <div className="text-center text-gray-500">
-                    <p className="text-2xl font-semibold">Gemini Chat</p>
-                    <p>Start a conversation by typing below.</p>
+                    <p className="text-2xl font-semibold">Workflow Assistant</p>
+                    <p>Let’s solve something together — type below.</p>
                 </div>
             </div>
         )}
