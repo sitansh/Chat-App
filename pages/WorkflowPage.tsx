@@ -16,7 +16,7 @@ const WorkflowPage: React.FC = () => {
           <a
             href="http://192.168.75.203:3000/"
             rel="noopener noreferrer"
-            className="font-bold text-purple-400 hover:text-purple-300 underline transition-colors"
+            className="font-bold text-purple-400 hover:text-purple-300 transition-colors"
           >
             Workflow
           </a>{' '}
