@@ -82,8 +82,8 @@ const ChatPage: React.FC = () => {
         {chatHistory.length === 0 && !isLoading && (
             <div className="flex justify-center items-center h-full">
                 <div className="text-center text-gray-500">
-                    <p className="text-2xl font-semibold">Workflow Assistant</p>
-                    <p>Let’s solve something together — type below.</p>
+                    <p className="text-5xl md:text-6xl font-extrabold mb-4 animate-pulse bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 bg-clip-text text-transparent">Workflow Assistant</p>
+                    <p className="text-lg text-gray-400 max-w-xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.3s', opacity: 0 }}>Let’s solve something together — type below.</p>
                 </div>
             </div>
         )}
