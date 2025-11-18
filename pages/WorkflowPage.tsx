@@ -18,7 +18,7 @@ const WorkflowPage: React.FC = () => {
             rel="noopener noreferrer"
             className="font-bold text-purple-400 hover:text-purple-300 underline transition-colors"
           >
-            'Workflow'
+            Workflow
           </a>{' '}
           button to launch the full experience.
         </p>
