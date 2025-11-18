@@ -16,7 +16,7 @@ const Header: React.FC<HeaderProps> = ({ activePage, setActivePage }) => {
 
   const handleWorkflowClick = () => {
     setActivePage('workflow');
-    window.open('http://192.168.75.203:3000/', '_blank', 'noopener,noreferrer');
+    window.open('http://192.168.75.203:3000/', 'noopener,noreferrer');
   };
 
   return (
