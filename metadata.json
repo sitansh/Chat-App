@@ -1,5 +1,5 @@
 {
-  "name": "Minimalist Gemini Chat",
+  "name": "Workflow Manager",
   "description": "A clean and simple chat application powered by the Gemini API. Engage in a seamless conversation with an AI, with real-time streaming responses in a visually appealing interface.",
   "requestFramePermissions": []
 }
